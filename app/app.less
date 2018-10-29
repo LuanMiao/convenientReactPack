@@ -1,0 +1,90 @@
+body,
+body a,
+body button,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body img,
+body input,
+body li,
+body ol,
+body p,
+body ul,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑",consolas;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #666;
+  //background-color: #f0f3ef;
+  background-color: #fff;
+
+  li {
+    list-style-type: none;
+  };
+
+  a {
+    color: #666;
+    text-decoration: none;
+    font-family: "微软雅黑",consolas;
+
+    &:hover {
+      color: #666;
+      text-decoration: none;
+      font-family: "微软雅黑",consolas;
+    };
+
+    &:focus {
+      color: #666;
+      text-decoration: none;
+      font-family: "微软雅黑",consolas;
+    };
+
+    &:visited {
+      color: #666;
+      text-decoration: none;
+      font-family: "微软雅黑",consolas;
+    };
+  }
+
+  button {
+    border: 0 none;
+    outline: none;
+  };
+
+  input {
+    border: 0 none;
+    outline: none;
+  };
+};
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  };
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    width: 970px;
+  };
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    width: 750px;
+  };
+  @media screen and (min-width: 480px) and (max-width: 750px) {
+    width: 480px;
+  };
+  .content{
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+  };
+};
